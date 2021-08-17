@@ -1,0 +1,19 @@
+int(input())
+a = list(map(int, input().split()))
+b = []
+c = []
+d = 0
+e = 0
+for i in range(len(a)):
+    if a[i]%2==0:
+        b.append(a[i])
+        d+=1
+    else:
+        e+=1
+        c.append(a[i])
+print(*c)
+print(*b)
+if d>=e:
+    print("YES")
+else:
+    print("NO")
