@@ -1,0 +1,12 @@
+n, b = input().split()
+korova = 0
+bik = 0
+for i in range(4):
+    if n[i] == b[i]:
+        bik += 1
+    elif n[i] in b:
+        korova += 1
+if bik == 4:
+    print(4, 0)
+else:
+    print(bik, korova)
