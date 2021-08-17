@@ -1,0 +1,8 @@
+i = int(input())
+a=int(input())
+if a>i:
+    print("<")
+elif i>a:
+    print(">")
+else:
+    print("=")
