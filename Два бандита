@@ -1,0 +1,2 @@
+i, j = map(int, input().split())
+print(i+j-i-1, i+j-j-1)
