@@ -1,0 +1,12 @@
+n = int(input())
+a = []
+c = []
+for i in range(n):
+    b = int(input())
+    if b == 0:
+        a.append(b)
+    else:
+        c.append(b)
+h = len(a)
+x = len(c)
+print(min(x, h))
