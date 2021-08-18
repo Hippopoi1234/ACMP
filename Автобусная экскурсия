@@ -1,0 +1,11 @@
+a = 0
+n = int(input())
+i = input().split()
+for j in range(len(i)):
+    if int(i[j]) <= 437:
+        a = j + 1
+        break
+if a == 0:
+    print("No crash")
+else:
+    print("Crash", a)
