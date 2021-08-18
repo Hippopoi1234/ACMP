@@ -1,0 +1,7 @@
+i, j, k = map(int, input().split())
+if max(i, j, k) > 727:
+    print("Error")
+elif min(i, j, k) < 94:
+    print("Error")
+else:
+    print(max(i, j, k))
