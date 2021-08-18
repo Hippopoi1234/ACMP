@@ -1,0 +1,5 @@
+i = int(input())
+a = input().split()
+for j in range(len(a)):
+    a[j]=int(a[j])
+print(min(a), max(a))
