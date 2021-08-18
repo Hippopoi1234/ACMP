@@ -1,0 +1,5 @@
+i, j, k = map(int, input().split())
+if i < k * 2 or j < k * 2:
+    print("NO")
+else:
+    print("YES")
