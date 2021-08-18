@@ -1,0 +1,5 @@
+z, v, b = map(int, input().split())
+a = z//2
+n = v//6
+c = b//1
+print(min(a, n, c))
