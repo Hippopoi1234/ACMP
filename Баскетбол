@@ -1,0 +1,12 @@
+perviy = 0
+vtoroy = 0
+for i in range(4):
+    a, b = map(int, input().split())
+    perviy+=a
+    vtoroy+=b
+if perviy>vtoroy:
+    print(1)
+elif vtoroy>perviy:
+    print(2)
+else:
+    print("DRAW")
