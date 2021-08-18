@@ -1,0 +1,6 @@
+a = input()
+b = a.count("0")
+d = a.count("6")
+c = a.count("8")
+e = a.count("9")
+print(b + (c * 2) + d + e)
