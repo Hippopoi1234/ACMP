@@ -1,0 +1,11 @@
+i = int(input())
+if i > 12:
+    print("Error")
+elif i == 11 or i == 10 or i == 9:
+    print("Autumn")
+elif i == 8 or i == 7 or i == 6:
+    print("Summer")
+elif i == 5 or i == 4 or i == 3:
+    print("Spring")
+elif i == 2 or i == 1 or i == 12:
+    print("Winter")
