@@ -1,0 +1,4 @@
+i = input()
+a = "qwertyuiopasdfghjklzxcvbnmq"
+b = a.find(i)
+print(a[b + 1])
