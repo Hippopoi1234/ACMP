@@ -1,0 +1,5 @@
+i, b, n = map(int, input().split())
+if i+b-n>=0:
+  print(i+b-n)
+else:
+  print("Impossible")
