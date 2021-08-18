@@ -1,0 +1,21 @@
+chislo = int(input())
+if chislo % 4 == 0 and chislo % 100 != 0 or chislo % 400 == 0:
+    chislo = str(chislo)
+    if len(chislo)==4:
+        print("12/09/" + str(chislo))
+    elif len(chislo) == 3:
+        print("12/09/0" + str(chislo))
+    elif len(chislo) == 2:
+        print("12/09/00" + str(chislo))
+    elif len(chislo) == 1:
+        print("12/09/000" + str(chislo))
+else:
+    chislo = str(chislo)
+    if len(chislo) == 4:
+        print("13/09/" + str(chislo))
+    elif len(chislo) == 3:
+        print("13/09/0" + str(chislo))
+    elif len(chislo) == 2:
+        print("13/09/00" + str(chislo))
+    elif len(chislo) == 1:
+        print("13/09/000" + str(chislo))
