@@ -1,0 +1,11 @@
+i = input()
+k = 0
+max1 = 0
+for g in range(len(i)):
+    if i[g] == "0":
+        k += 1
+        if k >= max1:
+            max1 = k
+    else:
+        k = 0
+print(max1)
