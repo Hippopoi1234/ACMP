@@ -1,0 +1,14 @@
+mxm = 0
+k = []
+c = []
+for i in range(int(input())):
+    a, b = map(int, input().split())
+    k.append(a)
+    c.append(b)
+    if c[i] == 1:
+        if k[i] > mxm:
+            mxm = k[i]
+if mxm != 0:
+    print(k.index(mxm)+1)
+else:
+    print(-1)
