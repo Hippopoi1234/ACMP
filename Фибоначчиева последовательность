@@ -1,0 +1,4 @@
+n, an, bn = map(int, input().split())
+for i in range(n - 1): 
+    an, bn = bn - an, an
+print(an, bn)
